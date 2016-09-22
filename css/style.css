@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,div,ul,li,h1,h2,h3,h4,p,dl,dt,dd,a,img,span,i{ margin:0; padding:0;}
+a{ text-decoration:none; color:#000;}
+img{ border:0 none; vertical-align:baseline;}
+li{ list-style:none;}
+i{ 	font-style:normal;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; height:0; clear:both; visibility:hidden; display:block;}
+body{
+	background:#FFF;
+	font-family:"宋体";
+	font-size:12px;
+	color:#000;
+}
+a:hover{
+	color:#e8240f;
+}
+.top{
+	width:100%;
+	margin:0 auto;
+}
+.top-one{
+	width:1005px;
+	margin:0 auto;
+	border-top:#666 4px solid;
+}
+.top-one h1{
+	float:left;
+	width:231px;
+	height:84px;
+	border-right:#C9C9C9 1px solid;
+}
+.map{
+	float:right;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	padding-right:20px;
+	color:#a3a2a2;
+}
+.map a{
+	color:#a3a2a2;
+}
+.map a:hover{
+	color:#e8240f;
+}
+.top-list{
+	float:left;
+	width:772px;
+	height:40px;
+	background:url(../images/nav_bg.png) repeat-x 0 -40px;
+}
+.top-list li{
+	float:left;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	padding:0 24px 0 21px;
+	background:url(../images/nav_bg.png) no-repeat right top;
+}
+.top-two{
+	width:1005px;
+	margin:0 auto;
+	height:340px;
+	background:url(../images/flash_bg.png) repeat-x left bottom;
+}
+.center{
+	width:1005px;
+	height:auto;
+	margin:0 auto;
+}
+.center-l{
+	float:left;
+	width:190px;
+	height:auto;
+}
+.tit{
+	width:100%;
+	height:34px;
+	background:url(../images/main_titBg.png);
+}
+.tit h3{
+	color:#1952c6;
+	float:left;
+	font-size:13px;
+	font-weight:400;
+	padding:12px 0 0 25px;
+	
+}
+.tit i{
+	color:#9a9a9a;
+	font-size:12px;
+	padding-left:15px;
+}
+.center-list{
+	float:left;
+	width:190px;
+	height:auto;
+	padding-top:10px;
+}
+.center-list li{
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	margin-top:3px;
+	background:url(../images/main_nav_bg.png) no-repeat;
+}
+.center-l-img{
+	display:block;
+	float:left;
+	width:184px;
+	height:70px;
+	border:#ccc9c9 1px solid;
+	padding:1px;
+	margin-top:4px;
+}
+.center-list2{
+	float:left;
+	width:190px;
+	height:auto;
+	margin-top:11px;
+	padding-bottom:34px;
+}
+.center-list2 li{
+	width:100%;
+	height:auto;
+	line-height:26px;
+}
+.center-c{
+	float:left;
+	width:556px;
+	margin-left:37px;
+}
+.center-c1,.center-c3,.center-r-1{
+	float:left;
+	background-position:0 -34px;
+}
+.tit a{
+	float:right;
+	margin:12px 5px 0 0;
+}
+.center-c2{
+	width:100%;
+	height:200px;
+}
+.center-c2 img{
+	float:left;
+	width:140px;
+	height:140px;
+}
+.center-c2 p{
+	float:left;
+	width:396px;
+	height:132px;
+	margin:15px 0 0 12px;
+	line-height:22px;
+	overflow:hidden;
+}
+.center-c4{
+	width:526px;
+	height:auto;
+	overflow:hidden;
+}
+.center-list3{
+	width:1000%;
+	height:auto;
+	margin:15px 0 0 14px;
+	overflow:hidden;
+}
+.center-list3 li{
+	float:left;
+	width:127px;
+	height:153px;
+	margin-right:21px;
+}
+.center-list3 img{
+	border:#d3d3d3 1px solid;
+}
+.center-list3 span{
+	display:block;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+}
+.center-r{
+	float:right;
+	width:199px;
+	height:auto;
+}
+.center-r-2{
+	float:left;
+	position:relative;
+	width:190px;
+	height:190px;
+	border:#dbdada 1px solid;
+	margin-top:10px;
+	padding:3px;
+}
+.center-r-2-img{
+	position: relative;
+	z-index: 5;
+	width: 190px;
+	height: 190px;
+	overflow: hidden;
+}
+.center-r-2-img li{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:5;
+}
+.center-r-2-btn{
+	position:absolute;
+	left:3px;
+	bottom:3px;
+	width:72px;
+	height:14px;
+	z-index: 6;
+}
+.center-r-2-btn li{
+	float:left;
+	width:24px;
+	height:14px;
+	background:#000;
+	color:#FFF;
+	text-align:center;
+	cursor:pointer;
+}
+.center-r-2-btn .btn2{
+	background:#bd0404;
+}
+.center-r-3{
+	float:left;
+	margin-top:16px;
+}
+.center-r-3-list li{
+	height:24px;
+	line-height:24px;
+	padding-left:19px;
+	background:url(../images/tubiao.png) no-repeat left;
+}
+.center-r-3-list li a{
+	color:#777676;
+}
+.center-r-3-list li a:hover{
+	color:#e8240f;
+}
+.footer{
+	width:1005px;
+	margin:0 auto;
+	height:63px;
+	padding-top:13px;
+	margin-top:20px;
+	border-top:#e2e1e1 7px solid;
+	text-align:center;
+}
+.footer p{
+	line-height:22px;
+	color:#a4a2a2;
+}
+.right{
+	float:right;
+	width:778px;
+	height:auto;
+}
+.right-1{
+	background:url(../images/list_bg.png) repeat-x;
+	height:30px;
+}
+.right-1 span{
+	display:block;
+	width:auto;
+	height:20px;
+	font-size:12px;
+	background:url(../images/tubiao1.png) no-repeat 15px;
+	padding:8px 0 0 30px;
+}
+.right-2{
+	width:725px;
+	height:auto;
+	margin-left:19px;
+}
+.right-2 h2{
+	width:100%;
+	height:18px;
+	margin-top:32px;
+	text-align:center;
+	font-size:14px;
+	color:#5e5a5a;
+}
+.right-2 span{
+	display:block;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#5e5a5a;
+}
+.about-tit p{
+	width:100%;
+	height:auto;
+	line-height:20px;
+	color:#5e5a5a;
+	margin-top:10px;
+	text-indent:2em;
+}
+
+.right-3{
+	float:left;
+	width:778px;
+	text-align:center;
+	margin-top:27px;
+}
+.right-3 a{
+	display:inline-block;
+	width:31px;
+	height:20px;
+	line-height:20px;
+	border:#b6b5b5 1px solid;
+	margin:0 auto;
+}
+.right-3 span{
+	margin-right:-4px;
+}
+.right-3 a:hover{
+	background:#ea3724;
+	color:#FFF;
+}
+.red-bg{
+	background:#ea3724;
+	color:#FFF;
+}
+.right-2{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+.right-2 dl{
+	float:left;
+	width:346px;
+	height:143px;
+	border-bottom:#eaeaea 1px dashed;
+	margin:14px 17px 4px 10px;
+	display:inline;
+}
+.right-2 dt{
+	float:left;
+	width:125px;
+	height:125px;
+	border:#d3d3d3 1px solid;
+}
+.right-2 dd{
+	float:left;
+	width:190px;
+	margin-left:19px;
+	height:auto;
+}
+.right-2 dl dd h4{
+	width:100px;
+	height:26px;
+	line-height:26px;
+	font-size:18px;
+	font-weight:400;
+	overflow:hidden;
+}
+.right-2 dl dd p{
+	width:100%;
+	height:88px;
+	line-height:22px;
+	margin-top:8px;
+	font-size:13px;
+	color:#323232;
+	overflow:hidden;
+}
+.newsList{
+	width:720px;
+	height:auto;
+	margin:9px 0 0 10px;
+}
+.newsList li{
+	width:auto;
+	height:39px;
+	line-height:39px;
+	border-bottom:#9e9c9c 1px dotted;
+	padding-left:25px;
+	background:url(../images/news_btn.png) no-repeat;
+}
+.newsList span{
+	float:right;
+}
+.contact h3{
+	height:43px;
+	line-height:43px;
+	font-size:14px;
+}
+.contact span{
+	display:block;
+	width:532px;
+	height:245px;
+	padding:5px;
+	border:#e1dddd 1px solid;
+}
